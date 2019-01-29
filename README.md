@@ -43,7 +43,7 @@
 Пример:
 
 ```python
-    >>>python3 main.py word1 .. wordN
+    >>>python3 dns_searcher.py word1 .. wordN
 ```
 
 Можно передавать неограниченное количество слов. Замена символов 
