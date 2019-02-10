@@ -92,9 +92,9 @@ class DomainNameSearcher:
             # TODO нарушение PEP8 -- пробел после # должен быть!
 
             res.extend(self._letter_adder(word))
-            # res.extend(self._symbol_changer(word))
-            # res.extend(self._point_adder(word))
-            # res.extend(self._symbol_remover(word))
+            res.extend(self._symbol_changer(word))
+            res.extend(self._point_adder(word))
+            res.extend(self._symbol_remover(word))
             pass
 
         return res
