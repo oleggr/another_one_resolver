@@ -319,7 +319,7 @@ class DomainNameSearcher:
         """
         Функция получения результатов работы программы
         в красивом виде
-        :return: Таблица типа  PrettyTable
+        :return: Таблица типа PrettyTable
         """
 
         '''
